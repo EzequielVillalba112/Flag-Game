@@ -1,0 +1,59 @@
+.data-message {
+    width: 350px;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.img-flag_mess {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-flag_mess img {
+    width: 90%;
+    object-fit: contain;
+}
+
+.data-message h2 {
+    font-family: jost, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #3b3b3b;
+}
+
+.data-message p {
+    font-family: jost, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.new_game {
+    width: 50%;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #2a0b7e;
+    color: #fff;
+    font-family: jost, sans-serif;
+    height: 50px;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+.new_game:hover {
+    background-color: #2a0b7e;
+    color: #f8f8f8;
+    scale: 1.1;
+}

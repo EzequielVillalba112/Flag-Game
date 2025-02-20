@@ -1,0 +1,27 @@
+para las img
+https://flagcdn.com/w2560/(codigo en letra del pais ejemp = ar).png
+
+para el nombre y el codigo del pais
+https://flagcdn.com/es/codes.json
+
+para la obtener el codigo y la img al mismo tiempo
+const objeto = {
+  unicaClave: 'unicoValor'
+};
+
+const clave = Object.keys(objeto)[0];
+const valor = Object.values(objeto)[0];
+
+console.log(`Clave: ${clave}, Valor: ${valor}`);
+
+services
+    .consumo de la api
+
+context
+    .uno que obtenga el pais con su clave y bandera
+    .otro que verifique si las palabras clickeada son correctas o incorrectas y guardar en ambos caso
+
+
+falta:
+    .resetear la bandera una vez perdido o ganado, en el caso de ganar dar otra bandera no repetida.
+    .refudicir la vida al cometer un error

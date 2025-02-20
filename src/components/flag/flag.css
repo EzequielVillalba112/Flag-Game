@@ -1,0 +1,12 @@
+.img-flag{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-flag img{
+    height: 200px;
+    object-fit: contain;
+    border-radius: 6px;
+}

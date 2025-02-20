@@ -1,0 +1,47 @@
+.lose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsla(0, 0%, 0%, 0.438);
+    width: 100%;
+    gap: 3rem;
+}
+.message-lose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.message-lose h1{
+    font-size: 5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.message-lose p{
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center; 
+}
+
+.start-new_game{
+    width: 290px;
+    height: 90px;
+    background-color: #5b0097;
+    color: #ffffff;
+    font-size: 2rem;
+    border-style: none;
+    border-radius: 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+}
+
+.start-new_game:hover{
+    background-color: #7b3fc6;
+    scale: 1.1;
+}
