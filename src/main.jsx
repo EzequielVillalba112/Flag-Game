@@ -6,7 +6,7 @@ import { Lose } from "./view/lose/Lose.jsx";
 import { CountriesProvider } from "./context/Countries.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <Router>
+  <Router basename="/Flag-Game">
     <CountriesProvider>
       <App />
     </CountriesProvider>
